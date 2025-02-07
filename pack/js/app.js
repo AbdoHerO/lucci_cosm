@@ -83,7 +83,7 @@ $("#productForm").submit(function(event) {
               product_id: "1127",
           });
 
-          document.location.href = "/pack/order_success.html";
+          document.location.href = "../pack/order_success.html";
       } else {
           console.log("Failed to add order to SheetDB");
           $("#save_guest_order").prop("disabled", false);
