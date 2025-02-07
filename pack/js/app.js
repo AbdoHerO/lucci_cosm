@@ -61,7 +61,7 @@ $("#formInfo").submit(function(event) {
     quantity: variant,
     price: price,
     product_notice: "",
-    notice: "",
+    notice: marchandise,
     status: "pending",
     fees_shipping: "",
     size: "",
