@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     
-$("#productForm").submit(function(event) {
+$("#formInfo").submit(function(event) {
   // Function to get URL parameter by name
   var trafic_name = "";
   function hasFbclidParameter() {
@@ -20,10 +20,10 @@ $("#productForm").submit(function(event) {
   event.preventDefault();
 
   // Get the updated data from the form
-  var fullname = $('#productForm input[name="fullname"]').val();
-  var phone = $('#productForm input[name="phone"]').val();
-  var adresse = $('#productForm input[name="adresse"]').val();
-  var ville = $('#productForm input[name="ville"]').val();
+  var fullname = $('#formInfo input[name="fullname"]').val();
+  var phone = $('#formInfo input[name="phone"]').val();
+  var adresse = $('#formInfo input[name="adresse"]').val();
+  var ville = $('#formInfo input[name="ville"]').val();
   var variant = $('#tier_variante').val();
   var price = $('#price_tiers').val();
 
