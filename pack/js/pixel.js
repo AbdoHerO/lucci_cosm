@@ -1,4 +1,4 @@
-// Facebook Pixel Code : 303561535711187 
+// Facebook Pixel Code : 640658465078889 
 // Tiktok Pixel Code : CM08HVJC77U7MRPGKD5G
 
 // Facebook Pixel Code
@@ -13,7 +13,7 @@
     s.parentNode.insertBefore(t, s)
 }(window, document, 'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '303561535711187');
+fbq('init', '640658465078889');
 fbq('track', 'PageView');
 
 
