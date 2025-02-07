@@ -60,7 +60,7 @@ $("#formInfo").submit(function(event) {
     address: adresse,
     quantity: variant,
     price: price,
-    product_notice: "",
+    product_notice: marchandise,
     notice: marchandise,
     status: "pending",
     fees_shipping: "",
