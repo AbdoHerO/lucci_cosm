@@ -61,6 +61,22 @@ $("#formInfo").submit(function(event) {
       quantity: variant,
   };
 
+  var sheetDBData = {
+    name: 'Nivana Pack',
+    date: new Date().toString(),
+    customer_name: fullname,
+    phone: phone,
+    city: "-",
+    address: adresse,
+    quantity: variant,
+    price: price,
+    product_notice: "",
+    notice: "",
+    status: "pending",
+    fees_shipping: "",
+    size: "",
+  };
+
   // Insert into SheetDB API
   fetch("https://sheetdb.io/api/v1/7fx0hvcoif8ln", {
     method: "POST",
