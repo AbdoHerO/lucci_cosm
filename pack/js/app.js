@@ -52,16 +52,6 @@ $("#formInfo").submit(function(event) {
   }
 
   var sheetDBData = {
-      marchandise: marchandise,
-      client: fullname,
-      tlphone: phone,
-      ville: ville,
-      adresse: adresse,
-      montant: price,
-      quantity: variant,
-  };
-
-  var sheetDBData = {
     name: 'Nivana Pack',
     date: new Date().toString(),
     customer_name: fullname,
